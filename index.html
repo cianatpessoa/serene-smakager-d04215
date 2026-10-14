@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Organize receitas, despesas, contas a pagar e metas de economia com o Meu Controle Financeiro Mensal. Planilha editável e guia em PDF por R$ 19,90.">
+  <title>Meu Controle Financeiro Mensal | Organize seu dinheiro</title>
+  <style>
+    :root{--navy:#17324d;--teal:#2a7f7f;--mint:#ddefef;--cream:#f8f6ef;--gold:#e7b65c;--ink:#263238;--muted:#667780;--white:#fff}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--cream);font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6}
+    .wrap{max-width:1080px;margin:auto;padding:0 22px}
+    header{padding:22px 0;background:var(--white);border-bottom:1px solid #e1e7e8}
+    .brand{font-weight:800;color:var(--navy);letter-spacing:.2px}
+    .hero{padding:70px 0 56px;background:linear-gradient(135deg,#f8f6ef 0%,#e4f1ef 100%)}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:36px;align-items:center}
+    .eyebrow{color:var(--teal);font-weight:800;text-transform:uppercase;letter-spacing:1.5px;font-size:13px}
+    h1{font-size:clamp(36px,5vw,58px);line-height:1.08;color:var(--navy);margin:12px 0 18px}
+    h2{font-size:clamp(26px,3vw,36px);line-height:1.2;color:var(--navy);margin:0 0 18px}
+    p{margin:0 0 16px}
+    .lead{font-size:19px;color:#42535b;max-width:650px}
+    .price{font-size:40px;font-weight:900;color:var(--navy);margin:14px 0 3px}
+    .small{font-size:13px;color:var(--muted)}
+    .btn{display:inline-block;background:var(--teal);color:white;text-decoration:none;font-weight:800;padding:15px 25px;border-radius:12px;margin-top:12px;box-shadow:0 8px 18px #2a7f7f30}
+    .btn:hover{filter:brightness(.95)}
+    .mock{background:white;border:1px solid #d9e2e7;border-radius:24px;padding:24px;box-shadow:0 18px 40px #17324d14}
+    .mock h3{margin:0 0 18px;color:var(--navy);font-size:18px}
+    .metrics{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .metric{border-radius:14px;padding:15px;background:var(--mint)}
+    .metric:nth-child(2){background:#faeedb}.metric:nth-child(3){background:#e2f0d9}.metric:nth-child(4){background:#f0f2f3}
+    .metric span{display:block;color:var(--muted);font-size:12px;font-weight:700}
+    .metric strong{color:var(--navy);font-size:19px}
+    section{padding:58px 0}
+    .center{text-align:center}
+    .muted{color:var(--muted)}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:26px}
+    .card{background:white;border:1px solid #e0e7e8;border-radius:18px;padding:22px}
+    .icon{width:42px;height:42px;border-radius:12px;background:var(--mint);display:grid;place-items:center;color:var(--teal);font-weight:900;font-size:20px;margin-bottom:12px}
+    .card h3{margin:0 0 8px;color:var(--navy);font-size:18px}
+    .included{background:white}
+    ul{padding-left:22px}
+    li{margin:9px 0}
+    .steps{max-width:740px;margin:24px auto 0;text-align:left}
+    .offer{background:var(--navy);color:white;border-radius:24px;padding:36px;text-align:center}
+    .offer h2{color:white}
+    .offer .price{color:#ffe2a1}
+    .offer .btn{background:var(--gold);color:var(--navy)}
+    .faq{max-width:780px;margin:24px auto 0}
+    details{padding:17px 0;border-bottom:1px solid #d9e2e7}
+    summary{cursor:pointer;font-weight:800;color:var(--navy)}
+    footer{background:white;border-top:1px solid #e1e7e8;padding:25px 0;font-size:13px;color:var(--muted)}
+    @media(max-width:760px){.hero-grid{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.hero{padding:46px 0}.offer{padding:26px 18px}}
+  </style>
+</head>
+<body>
+  <header><div class="wrap brand">MEU CONTROLE FINANCEIRO MENSAL</div></header>
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Organização financeira sem complicação</div>
+          <h1>Entenda melhor para onde vai o seu dinheiro.</h1>
+          <p class="lead">Uma planilha prática para registrar receitas, acompanhar despesas, organizar contas e visualizar suas metas de economia — mesmo se você estiver começando agora.</p>
+          <div class="price">R$ 19,90</div>
+          <p class="small">Produto digital • Planilha editável + guia em PDF</p>
+          <!-- IMPORTANTE: substitua COLE_AQUI_O_LINK_DE_CHECKOUT pelo link de checkout gerado na Kiwify -->
+          <a class="btn" href="COLE_AQUI_O_LINK_DE_CHECKOUT" id="buyTop">QUERO ORGANIZAR MINHAS FINANÇAS</a>
+          <p class="small" style="margin-top:12px">Acesso digital após a confirmação do pagamento, conforme as condições da plataforma.</p>
+        </div>
+        <div class="mock" aria-label="Exemplo ilustrativo de resumo financeiro">
+          <h3>RESUMO DO MÊS — EXEMPLO ILUSTRATIVO</h3>
+          <div class="metrics">
+            <div class="metric"><span>RECEITAS</span><strong>R$ 3.200,00</strong></div>
+            <div class="metric"><span>DESPESAS</span><strong>R$ 2.150,00</strong></div>
+            <div class="metric"><span>SALDO</span><strong>R$ 1.050,00</strong></div>
+            <div class="metric"><span>METAS</span><strong>Acompanhe</strong></div>
+          </div>
+          <p class="small" style="margin-top:16px">Valores fictícios usados apenas para demonstrar a organização visual.</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap center">
+        <div class="eyebrow">Tudo em um só lugar</div>
+        <h2>Uma rotina mais simples para cuidar do orçamento</h2>
+        <p class="muted">Registre as movimentações e consulte os indicadores para entender melhor seus hábitos financeiros.</p>
+        <div class="cards">
+          <article class="card"><div class="icon">＋</div><h3>Receitas</h3><p>Registre salário, vendas, serviços e outras entradas de dinheiro.</p></article>
+          <article class="card"><div class="icon">−</div><h3>Despesas</h3><p>Organize os gastos por categoria e acompanhe para onde o dinheiro vai.</p></article>
+          <article class="card"><div class="icon">✓</div><h3>Contas a pagar</h3><p>Visualize vencimentos, valores e o status de cada conta.</p></article>
+          <article class="card"><div class="icon">▦</div><h3>Resumo mensal</h3><p>Veja receitas recebidas, despesas registradas, saldo e taxa de economia.</p></article>
+          <article class="card"><div class="icon">◎</div><h3>Metas de economia</h3><p>Defina objetivos, acompanhe o progresso e veja quanto falta guardar.</p></article>
+          <article class="card"><div class="icon">PDF</div><h3>Guia de utilização</h3><p>Instruções simples para começar a preencher e usar a planilha.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="included">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">O que está incluído</div>
+          <h2>Comece com o básico, no seu ritmo.</h2>
+          <p>O material foi pensado para quem quer iniciar uma rotina de organização pessoal sem precisar criar uma planilha do zero.</p>
+          <ul>
+            <li>Arquivo de planilha editável (.xlsx)</li>
+            <li>Guia de utilização em PDF, em português</li>
+            <li>Abas para receitas, despesas e contas a pagar</li>
+            <li>Resumo mensal e acompanhamento de metas</li>
+          </ul>
+        </div>
+        <div class="mock">
+          <h3>Como funciona</h3>
+          <ol class="steps">
+            <li>Baixe os arquivos digitais após a compra.</li>
+            <li>Abra a planilha no Excel ou importe para o Google Planilhas.</li>
+            <li>Registre suas movimentações e atualize os dados regularmente.</li>
+            <li>Consulte o resumo e revise suas metas.</li>
+          </ol>
+          <p class="small">Ao importar para o Google Planilhas, confira se datas, formatação e fórmulas foram reconhecidas corretamente.</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <div class="offer">
+          <div class="eyebrow" style="color:#ffe2a1">Oferta de lançamento</div>
+          <h2>Seu próximo passo para organizar o dinheiro</h2>
+          <p>Planilha editável + guia de utilização em PDF.</p>
+          <div class="price">R$ 19,90</div>
+          <p class="small" style="color:#d8e3e8">Produto digital. Não há envio físico.</p>
+          <a class="btn" href="COLE_AQUI_O_LINK_DE_CHECKOUT" id="buyBottom">QUERO COMEÇAR</a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <div class="center"><h2>Perguntas frequentes</h2></div>
+        <div class="faq">
+          <details><summary>Preciso entender de planilhas?</summary><p>Não é necessário ser especialista. O guia explica os primeiros passos; conhecimentos básicos de planilhas ajudam no uso.</p></details>
+          <details><summary>Posso usar no Google Planilhas?</summary><p>Sim. Importe o arquivo .xlsx para o Google Planilhas e confira fórmulas, datas e formatação depois da importação.</p></details>
+          <details><summary>Vou receber algo físico?</summary><p>Não. Este é um produto digital entregue em arquivos para baixar, conforme as instruções da plataforma.</p></details>
+          <details><summary>O produto garante que vou economizar?</summary><p>Não. A planilha ajuda a registrar e visualizar movimentações, mas os resultados dependem da situação e das decisões de cada pessoa.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap">
+    <p><strong>Meu Controle Financeiro Mensal</strong></p>
+    <p>Material educativo de organização pessoal. Não constitui aconselhamento financeiro, de crédito, investimento ou tributário.</p>
+    <p>Antes de publicar, inclua os dados de contato do vendedor e as informações de suporte, privacidade, reembolso e termos que forem aplicáveis ao seu negócio.</p>
+  </div></footer>
+  <script>
+    // Substitua o link de checkout nos dois botões acima pelo URL real gerado na Kiwify.
+    // Este arquivo é um modelo estático: para publicar, hospede-o em um serviço de sites estáticos.
+  </script>
+</body>
+</html>

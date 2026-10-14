@@ -1,0 +1,10 @@
+PÁGINA DE VENDAS — MEU CONTROLE FINANCEIRO MENSAL
+
+Arquivo principal: index.html
+
+IMPORTANTE:
+1. Esta é uma página pronta em HTML, mas ainda NÃO está publicada na internet.
+2. Para usar os botões, substitua COLE_AQUI_O_LINK_DE_CHECKOUT pelo link real do checkout criado na Kiwify.
+3. Publique a pasta em um serviço de hospedagem estática, por exemplo Netlify Drop (netlify.com) ou GitHub Pages. Depois de publicar, você receberá uma URL pública para informar à Kiwify.
+4. Revise dados de contato, política de privacidade, suporte e condições comerciais antes de vender.
+5. Teste a página no celular e confirme que o checkout abre corretamente.
